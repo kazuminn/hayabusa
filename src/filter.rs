@@ -7,11 +7,6 @@ use std::io::{BufRead, BufReader};
 
 
 
-
-
-
-
-
 #[derive(Debug)]
 pub struct DataFilterRule {
     pub regex_rule: Regex,
